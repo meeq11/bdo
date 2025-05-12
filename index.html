@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System BDO – Twoje obowiązki środowiskowe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581091012184-7f93ec62b6c1?auto=format&fit=crop&w=800&q=80') no-repeat center center/cover;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    }
+    
+    .btn-primary {
+      background-color: #006db6;
+      border-color: #006db6;
+    }
+    
+    .btn-primary:hover {
+      background-color: #005799;
+      border-color: #005799;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1140px;
+      margin: auto;
+    }
+
+    .info-block {
+      background: #ffffff;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+    }
+
+    .info-block ul {
+      text-align: left;
+      margin-top: 20px;
+      font-size: 1.1rem;
+    }
+
+    .footer {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #66ccff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .card {
+      margin: 20px;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      border-radius: 15px 15px 0 0;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-body h5 {
+      font-size: 1.5rem;
+    }
+
+    .card-body p {
+      font-size: 1rem;
+    }
+
+    .card-body a {
+      color: #006db6;
+      text-decoration: none;
+    }
+
+    .card-body a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Przewodnik po systemie BDO</h1>
+      <p>Sprawdź, jak system BDO pomaga Twojej firmie zarządzać obowiązkami środowiskowymi.</p>
+      <a href="#about" class="btn btn-primary btn-lg">Dowiedz się więcej</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">Czym jest system BDO?</h2>
+      <div class="info-block">
+        <p>BDO (Baza Danych o Produktach i Odpadach) to system, który zbiera dane o produktach wprowadzonych na rynek, odpadach oraz opakowaniach. Ma na celu zapewnienie pełnej przejrzystości w obszarze gospodarki odpadami.</p>
+        <p>System jest obowiązkowy dla firm, które generują odpady lub wprowadzają produkty w opakowaniach.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who is required -->
+  <section class="who-required">
+    <div class="container">
+      <h2 class="section-title">Kto podlega BDO?</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1581091012184-7f93ec62b6c1" alt="Firma budowlana">
+            <div class="card-body">
+              <h5 class="card-title">Firmy budowlane</h5>
+              <p class="card-text">Wszystkie firmy, które generują odpady budowlane, muszą rejestrować je w systemie BDO.</p>
+              <a href="#">Zobacz więcej</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1573164574231-0f8a5646c4aa" alt="Firma transportowa">
+            <div class="card-body">
+              <h5 class="card-title">Transport odpadów</h5>
+              <p class="card-text">Firmy transportujące odpady muszą monitorować każdy przewóz w systemie BDO.</p>
+              <a href="#">Zobacz więcej</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1559027615-48b3756e7f32" alt="Zakład recyklingu">
+            <div class="card-body">
+              <h5 class="card-title">Zakłady recyklingu</h5>
+              <p class="card-text">Zakłady recyklingowe muszą rejestrować odpady, które przyjmują, oraz informować o ich dalszym przetwarzaniu.</p>
+              <a href="#">Zobacz więcej</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Smart BDO -->
+  <section class="smart-bdo">
+    <div class="container">
+      <h2 class="section-title">Nowoczesna platforma – SMART BDO</h2>
+      <div class="info-block">
+        <p>Już niedługo zostanie uruchomiona platforma <a href="https://smartbdo.pl" target="_blank">smartbdo.pl</a>, która upraszcza procesy związane z systemem BDO:</p>
+        <ul>
+          <li>Automatyczne generowanie KPO</li>
+          <li>Powiadomienia o obowiązkach</li>
+          <li>Aktualności i zmiany w przepisach</li>
+        </ul>
+        <p>Więcej szczegółów znajdziesz na stronie <a href="https://e-lan.pl/smart-bdo.html" target="_blank">e-lan.pl/smart-bdo.html</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    &copy; 2025 – BDO System | Twój partner w odpowiedzialnym zarządzaniu odpadami | <a href="https://e-lan.pl" target="_blank">e-lan.pl</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
